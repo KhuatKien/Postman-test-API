@@ -2,22 +2,14 @@
 ## 1. Giới thiệu về Postman:
 Postman là một công cụ mạnh mẽ được sử dụng để kiểm thử, phát triển và quản lý API. Nó cung cấp một giao diện người dùng trực quan cho phép bạn dễ dàng gửi các yêu cầu HTTP, kiểm tra phản hồi và gỡ lỗi các vấn đề API. Postman hỗ trợ nhiều loại yêu cầu HTTP khác nhau, bao gồm GET, POST, PUT, DELETE và PATCH. Nó cũng cung cấp các tính năng để xác thực API, quản lý dữ liệu thử nghiệm và viết các kịch bản kiểm thử tự động.
 Các tính năng chính của Postman:
-
-Gửi và nhận các yêu cầu HTTP.
-
-Kiểm tra mã trạng thái HTTP và nội dung phản hồi.
-
-Sử dụng các biến và bộ sưu tập dữ liệu.
-
-Xác minh tính hợp lệ của JSON.
-
-Xác thực API.
-
-Kiểm tra hiệu suất API.
-
-Kiểm tra bảo mật API.
-
-Viết các kịch bản kiểm thử tự động.
+- Gửi và nhận các yêu cầu HTTP.
+- Kiểm tra mã trạng thái HTTP và nội dung phản hồi.
+- Sử dụng các biến và bộ sưu tập dữ liệu.
+- Xác minh tính hợp lệ của JSON.
+- Xác thực API.
+- Kiểm tra hiệu suất API.
+- Kiểm tra bảo mật API.
+- Viết các kịch bản kiểm thử tự động.
 
 ## 2. Kiểm thử API cơ bản:
 
@@ -46,3 +38,48 @@ Postman cung cấp các công cụ để giúp bạn kiểm tra bảo mật API 
 
 - Viết các kịch bản kiểm thử tự động bằng Postman:
 Postman hỗ trợ các kịch bản kiểm thử tự động, cho phép bạn tự động hóa các trường hợp kiểm thử của mình. Điều này có thể giúp bạn tiết kiệm thời gian và cải thiện độ bao phủ thử nghiệm của mình.
+
+## 4. Thực hành
+
+- Kịch bản 1:
+  
+Tên Kịch Bản: Kiểm thử cơ bản của 1 URL
+
+Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
+
+Phương Thức HTTP: GET
+
+URL: https://pokeapi.co/api/v2/pokemon
+
+Tham Số: ditto
+
+Kết Quả Mong Đợi: Gửi yêu cầu thành công
+
+Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+
+Trạng Thái: Thành công
+
+Kết quả sau khi kiểm thử:
+![image](https://github.com/KhuatKien/Postman-test-API/assets/91423106/c5f4df6a-103a-4819-b5a0-e9533594cd3c)
+
+
+- Kịch bản 2:
+  
+Tên Kịch Bản: Kiểm thử cơ bản của 1 URL
+
+Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
+
+Phương Thức HTTP: POST
+
+URL: https://pokeapi.co/api/v2/pokemon
+
+Tham Số: ditto
+
+Kết Quả Mong Đợi: Gửi yêu cầu thành công
+
+Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+
+Trạng Thái: Thành công
+
+Kết quả sau khi kiểm thử:
+![image](https://github.com/KhuatKien/Postman-test-API/assets/91423106/7f95b0e3-79f6-4e27-8cc9-271288ca9e0c)
